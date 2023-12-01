@@ -8,5 +8,11 @@ class Queue
         @queue.unshift(ele)
     end
 
-    
+    def dequeue
+        @queue.pop()
+    end
+
+    def peek
+        return @queue[-1]
+    end
 end
